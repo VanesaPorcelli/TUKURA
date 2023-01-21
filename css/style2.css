@@ -74,7 +74,7 @@ a {
 
 /* * =MAIN DEL INDEX*/
 .hero__fondo{
-    background-image:url(/assets/hero.jpg);
+    background-image:url(../assets/hero.jpg);
     object-fit: cover;
     background-position: center;
     background-size: cover;
@@ -132,7 +132,7 @@ a {
 
 /* * =MAIN DE PAG*/
 .pages__fondo{
-    background-image:url(/assets/hero.jpg);
+    background-image:url(../assets/hero.jpg);
     object-fit: cover;
     background-position: center;
     background-size: cover;
@@ -149,7 +149,6 @@ a {
     font-size: 40px;
     color: #DC5F00;
     line-height: 60px;
-    
 }
 .container_local p {
     margin-left: 1rem;
