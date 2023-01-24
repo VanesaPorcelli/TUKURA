@@ -70,48 +70,114 @@
 
 
     <!-- FORMULARIO DE CONTACTO -->
+    <!-- MAIN- CONTENIDO PRINCIPAL-->
+    <main class="main">
 
-    <div class="container bg-light">
-        <div class="row">
-            <div class="col-lg-6">
-                <h2 class="hero__fondo__h2 pt-4 pb-4">Formulario de contacto</h2>
-                <p class="card-text"> cambiar por un formulario de contacto</p>
+        <section class="grilla__contacto">
+            <div class="grilla_contacto c1">
+                <!--FORMULARIO-->
+                <section class="formulario ">
+                    <div class="container bg-light">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="well well-sm">
+                                    <form class="form-horizontal" method="post">
+                                        <fieldset>
+                                            <legend class="header__form">
+                                                <h2 class="hero__fondo__h2 pt-4 pb-4">Formulario de contacto</h2>
+                                            </legend>
+
+                                            <div class="form-group d-flex pb-3 ">
+                                                <span class="col-md-1 col-md-offset-2 text-center"><i
+                                                        class="fa fa-user bigicon"></i></span>
+                                                <div class="col-md-8 ps-2">
+                                                    <input id="fname" name="name" type="text" placeholder="Nombre"
+                                                        class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group d-flex pb-3">
+                                                <span class="col-md-1 col-md-offset-2 text-center"><i
+                                                        class="fa fa-user bigicon"></i></span>
+                                                        <div class="col-md-8 ps-2">
+                                                    <input id="lname" name="name" type="text" placeholder="Apellido"
+                                                        class="form-control">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group d-flex pb-3">
+                                                <span class="col-md-1 col-md-offset-2 text-center"><i
+                                                        class="fa fa-envelope-o bigicon"></i></span>
+                                                        <div class="col-md-8 ps-2">
+                                                    <input id="email" name="email" type="text" placeholder="E-mail"
+                                                        class="form-control">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group d-flex pb-3">
+                                                <span class="col-md-1 col-md-offset-2 text-center"><i
+                                                        class="fa fa-phone-square bigicon"></i></span>
+                                                        <div class="col-md-8 ps-2">
+                                                    <input id="phone" name="phone" type="text" placeholder="Teléfono"
+                                                        class="form-control">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group d-flex pb-3">
+                                                <span class="col-md-1 col-md-offset-2 text-center"><i
+                                                        class="fa fa-pencil-square-o bigicon"></i></span>
+                                                        <div class="col-md-8 ps-2">
+                                                    <textarea class="form-control" id="message" name="message"
+                                                        placeholder="Ingrese su mensaje. Responderemos a la brevedad."
+                                                        rows="7"></textarea>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group d-flex pb-3">
+                                                <div class="col-md-9 text-center">
+                                                    <button type="submit" class="btn0 btn-primary btn-md">Submit</button>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-            <div class="col-lg-6 m-0 p-0">
+    </main>
 
-            </div>
-        </div>
-    </div>
 
-    <section class="fondo-fijo">
+    <section class="fondo-fijo mb-4 mt-4">
     </section>
 
-    
-    
+    <section>
+
+    </section>
+
 
     <section class="locales d-flex justify-content-center">
         <div class="container ">
             <div class="row">
                 <div class="col-12 mt-3">
                     <h1 class="hero__fondo__h2">Preguntas Frecuentes:</h1>
-                    <h5>Respuesta inmediata a las consultas más frecuentes.</h5>
+                    <h5 class="mt-2 mb-4">Respuesta inmediata a las consultas más frecuentes.</h5>
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <strong>Cuánto es el minimo de compra?</strong> 
+                                    <strong>Cuánto es el minimo de compra?</strong>
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    La compra mínima requerida para envíos es de <b>$5.000</b>. Si desea retirar su
+                                    pedido por alguno de los locales, no tiene mínimo de compra.
+                                    Para clientes mayoristas, distribuidores y revendedores el mínimo de compra es de
+                                    <b>$20.000</b> +IVA.
+
                                 </div>
                             </div>
                         </div>
@@ -125,12 +191,14 @@
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <B>Hacemos envíos a todo el país mediante Correo Argentino</B>. La demora es de 2 a
+                                    3 días hábiles a partir del momento del despacho. Los envío se relaizan Lunes,
+                                    Miércoles y Viernes. <br>
+                                    Si te encontras en <b>CABA y GBA</b>, los envios demoran entre 24 y 48 hs, desde el
+                                    momento del pedido on-line. <br>
+                                    Para cotizar tu envio ingresá en la sección productos e ingresá tu código postal.
+                                    <br>
+                                    <strong>Compras sueriores a $10.000 envío sin cargo!</strong>
                                 </div>
                             </div>
                         </div>
