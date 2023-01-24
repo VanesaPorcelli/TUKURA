@@ -201,7 +201,6 @@ font-weight: bold;
     background-color:rgb(241, 239, 239);
 
 }
-
 /* PAGINA PRODUCTOS*/
 .tarjetas {
     background-color:#EEEEEE;
@@ -211,16 +210,22 @@ font-weight: bold;
     justify-content:space-evenly;
     flex-wrap: wrap;
     gap: 50px;
+
 }
+
 .tarjeta {
     background-color:#ffff;
     width: 44vh;
+
 }
+
 .tarjeta img {
     width: 44vh;
     height: 200px;
     object-fit: cover;
+    
 }
+
 .tarjeta__contenedora {
     padding: 10px;
     font-family: 'Lato', sans-serif;
@@ -228,6 +233,7 @@ font-weight: bold;
     flex-direction: column;
     gap: 10px;
     }
+
 .tarjeta__contenedora a {
     color:#191919;
     font-weight: bold;
@@ -237,6 +243,7 @@ font-weight: bold;
     padding: 10px;
     text-align: center;
 }
+
 .tarjeta__contenedora p {
     padding: 10px 0;
     border-top: 1px solid #191919;
@@ -244,6 +251,7 @@ font-weight: bold;
     align-self: flex-end;
     width: 100%;
 }
+
 .tarjetas__divisor {
     background-image: url(../assets/hero.jpg);
     background-attachment: fixed;
@@ -257,6 +265,12 @@ font-weight: bold;
     align-items: center;
     justify-content:left;
 }
+.tarjeta__contenedora h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 /* FOTTER*/
 .pie-pagina{
     background-image: url(../assets/fondo_prueba14.png);
