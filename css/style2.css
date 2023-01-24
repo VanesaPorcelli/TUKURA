@@ -12,8 +12,6 @@ a {
 }
 
 /* TIPOGRAFIAS*/
-
-
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Rubik&display=swap');;
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -138,7 +136,6 @@ a {
     height: 40vh;
     width: 100%;
 }
-
 .new__h6{
     color: #a5214b;
     font-size: 1.15rem;
@@ -160,7 +157,6 @@ font-weight: bold;
     margin-left: 1rem;
     font-size: 18px;
 }
-
 .hero_pages_h1{
     font-size:3rem;
     font-weight: 400;
@@ -180,14 +176,12 @@ font-weight: bold;
 .card:hover{
     box-shadow: 1.5px 1.5px 1.5px 1.5px rgb(169, 168, 168);
 }
-
 .titulo_card{
     text-decoration: underline;
     font-size: 1.2rem;
     font-weight: bold;
     font-family: 'Lato', sans-serif;
     }
-
     .img_n{
         margin: 0;
         padding: 0;
@@ -208,29 +202,17 @@ font-weight: bold;
 
 }
 
-
-
-
-@keyframes titulo {
-    0% {
-    letter-spacing: 1em;
-    transform: translateZ(400px);
-    opacity: 0;
-    }
-    40% {   
-    opacity: 0.6;
-    }
-    100% {
-    transform: translateZ(0);
-    opacity: 1;
-    }
-}
-
-/*:::::Pie de Pagina*/
+/* FOTTER*/
 .pie-pagina{
-    width: 100%;
-    background-color:#9b9a99;
-}
+    background-image: url(../assets/fondo_prueba14.png);
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;   
+    padding-right: 0px;    
+
+}       
 .pie-pagina .grupo-1{
     width: 100%;
     max-width: 1200px;
@@ -240,10 +222,9 @@ font-weight: bold;
     grid-gap:50px;
     padding: 45px 0px;
 }
-
 .hero__fondof__h1{
     font-size: 3rem;
-    text-align: start;
+    text-align: center;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     color: #DC5F00;
@@ -261,10 +242,9 @@ font-weight: bold;
     font-family: 'Staatliches', cursive;
     color: #a5214b;
     text-shadow: 1px 1px #333;
-    text-align: start;
+    text-align: center;
 
 }
-
 .pie-pagina .grupo-1 .box p{
     color: rgb(6, 6, 6);
     margin-bottom: 10px;
@@ -297,8 +277,6 @@ font-weight: bold;
 .pie-pagina .grupo-2 small{
     font-size: 15px;
 }
-
-
 @media screen and (max-width:800px){
     .pie-pagina .grupo-1{
         width: 90%;
@@ -308,17 +286,49 @@ font-weight: bold;
     }
 }
 
-
-/* * = CONTACTO- PREGUNTAS FRECUENTES*/
-.header__form {
-    color: #DC5F00;
-    font-size: 27px;
-    padding: 10px;
-}
-
-.bigicon {
+/* * = CONTACTO- FORMULARIO*/
+.icons {
     font-size: 35px;
     color: #DC5F00;
 }
 
+.form-group{
+    display: flex;
+    justify-content:left;
+    gap: 10px;
+}
+.btn2{
+    display:inline-block;
+    justify-content: end;
+    align-items: flex-end;
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: #f0791dfe;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    
+}
+.btn2:hover{
+    box-shadow: 1px 1px 1px 1px rgb(125, 124, 124) ;
+}
 
+
+
+/* KEYFRAMES*/
+@keyframes titulo {
+    0% {
+    letter-spacing: 1em;
+    transform: translateZ(400px);
+    opacity: 0;
+    }
+    40% {   
+    opacity: 0.6;
+    }
+    100% {
+    transform: translateZ(0);
+    opacity: 1;
+    }
+}
