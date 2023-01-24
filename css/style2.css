@@ -297,25 +297,21 @@ font-weight: bold;
     justify-content:left;
     gap: 10px;
 }
+
+
 .btn2{
-    display:inline-block;
-    justify-content: end;
-    align-items: flex-end;
     height: 45px;
-    width: 35%;
+    width: 20%;
     border: none;
-    outline: none;
     background-color: #f0791dfe;
     color: white;
     font-weight: 700;
     border-radius: 10px;
-    
-}
+    }
+
 .btn2:hover{
     box-shadow: 1px 1px 1px 1px rgb(125, 124, 124) ;
 }
-
-
 
 /* KEYFRAMES*/
 @keyframes titulo {
