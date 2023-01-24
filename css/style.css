@@ -366,6 +366,11 @@ font-weight: bold;
     gap: 10px;
 }
 
+.container-button{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    }
 
 .btn2{
     height: 45px;
